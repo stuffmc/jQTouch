@@ -15,8 +15,8 @@ body {
 #jqt .toolbar {
     -webkit-box-sizing: border-box;
     border-bottom: 1px solid #000;
-    padding: 10px;
-    height: 45px;
+/*    padding: 10px;
+*/    height: 45px;
     background: url(img/toolbarBackground.png) #000000 repeat-x;
     position: relative;
 }
@@ -65,6 +65,7 @@ body {
     white-space: nowrap;
     background: none;
     -webkit-border-image: url(img/button.png) 0 5 0 5;
+    -moz-border-image: url(img/button.png) 0 5 0 5;
 }
 #jqt .button.active, 
 #jqt .cancel.active, 
